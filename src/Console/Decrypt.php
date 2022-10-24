@@ -93,5 +93,4 @@ class Decrypt extends Command
             : $this->argument('environment');
     }
 }
-:x
     
