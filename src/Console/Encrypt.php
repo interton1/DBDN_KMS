@@ -13,7 +13,7 @@ class Encrypt extends Command
     /**
      * @var string
      */
-    protected $signature = 'env:encrypt
+    protected $signature = 'envsec:encrypt
                             {environment? : Which environment file you wish to encrypt}';
     /**
      * @var string
