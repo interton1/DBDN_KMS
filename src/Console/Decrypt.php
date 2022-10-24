@@ -28,7 +28,7 @@ class Decrypt extends Command
      *
      * @var string
      */
-    protected $signature = 'env:decrypt
+    protected $signature = 'envsec:decrypt
                             {environment? : Which environment file you wish to decrypt}
                             {--o|out= : Saves the decrypted file to an alternate location}';
 
@@ -93,3 +93,5 @@ class Decrypt extends Command
             : $this->argument('environment');
     }
 }
+:x
+    
